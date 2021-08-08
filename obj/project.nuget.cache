@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MAH1WIhKN18EIbv1rCgWmA+2hgK3w6aY6WQl2uN533GmLv2Ofms6GgdZtL+Lxz5hxoAi8TZKN3/E+3VOB10QYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sYarbrough\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\GopherHeaven\\GopherHeaven.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sYarbrough\\.nuget\\packages\\tmodloader.codeassist\\0.1.2\\tmodloader.codeassist.0.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
