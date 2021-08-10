@@ -8,7 +8,8 @@ namespace GopherHeaven.Items.Weapons.Ranger
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("This is what happens when you put wild gopher on steroids\nEye protection strongly advised\nSmall parts, not for children under 18 years");
+            Tooltip.SetDefault("This is what happens when you put wild gopher on steroids\nEye protection strongly advised\nSmall parts, not for children under 18 years\n" + 
+                               "Shoots Nukophers");
         }
 
         public override void SetDefaults()
@@ -26,10 +27,8 @@ namespace GopherHeaven.Items.Weapons.Ranger
             item.rare = ItemRarityID.Green;
             item.UseSound = SoundID.Item11;
             item.autoReuse = true;
-            item.shoot = mod.ProjectileType("Gopher");
             item.shoot = mod.ProjectileType("Nukopher");
             item.shootSpeed = 6f;
-            item.useAmmo = mod.ItemType("Gopher");
             item.useAmmo = mod.ItemType("Nukopher");
             item.scale = 1f;
         }
@@ -37,7 +36,7 @@ namespace GopherHeaven.Items.Weapons.Ranger
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SoulOfGopher", 50);
+            recipe.AddIngredient(null, "SoulOfGopher", 64);
             recipe.AddIngredient(ItemID.Wood, 20);
             recipe.AddIngredient(ItemID.StoneBlock, 20);
             recipe.AddIngredient(null, "GopherSlingshot", 1);

@@ -8,7 +8,7 @@ namespace GopherHeaven.Items
 		public override void SetStaticDefaults() 
 		{
 			// DisplayName.SetDefault("GopherSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("This sword is kinda OP, IDK why I added it.");
+			Tooltip.SetDefault("When you first create the mod source, there's an example sword.\n It's like the default cube in blender");
 		}
 
 		public override void SetDefaults() 
@@ -30,7 +30,7 @@ namespace GopherHeaven.Items
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "SoulOfGopher", 20);
+			recipe.AddIngredient(null, "SoulOfGopher", 50);
 			recipe.AddIngredient(ItemID.Wood, 10);
 			recipe.AddIngredient(ItemID.StoneBlock, 10);
 			recipe.AddTile(TileID.WorkBenches);

@@ -28,9 +28,10 @@ namespace GopherHeaven.Items.Weapons.Ranger.Ammo
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SoulOfGopher", 1);
+            recipe.AddIngredient(null, "Gopher", 20);
+            recipe.AddIngredient(null, "GopherPoop", 1);
             recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this, 1);
+            recipe.SetResult(this, 5);
             recipe.AddRecipe();
         }
     }

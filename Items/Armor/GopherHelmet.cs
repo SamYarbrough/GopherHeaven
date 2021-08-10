@@ -25,7 +25,7 @@ namespace GopherHeaven.Items.Armor
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SoulOfGopher", 24);
+            recipe.AddIngredient(null, "SoulOfGopher", 64);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();

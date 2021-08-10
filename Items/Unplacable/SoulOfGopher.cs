@@ -33,9 +33,9 @@ namespace GopherHeaven.Items.Unplacable
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock, 1);
+            recipe.AddIngredient(null, "GopherPoop", 1);
             recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this);
+            recipe.SetResult(this, 4);
             recipe.AddRecipe();
         }
     }

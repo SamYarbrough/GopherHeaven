@@ -30,7 +30,7 @@ namespace GopherHeaven.Items.Weapons.Ranger.Ammo
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "SoulOfGopher", 1);
             recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this, 50);
+            recipe.SetResult(this, 20);
             recipe.AddRecipe();
         }
     }

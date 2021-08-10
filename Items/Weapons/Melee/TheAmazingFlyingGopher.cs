@@ -34,14 +34,14 @@ namespace GopherHeaven.Items.Weapons.Melee
             item.noUseGraphic = true;
 
             item.UseSound = SoundID.Item1;
-            item.value = Item.sellPrice(platinum: 2);
+            item.value = Item.sellPrice(gold: 1);
             item.shoot = mod.ProjectileType("TheAmazingFlyingGopher");
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SoulOfGopher", 16);
+            recipe.AddIngredient(null, "SoulOfGopher", 56);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();

@@ -18,7 +18,7 @@ namespace GopherHeaven.Items.Tools
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 10;
+			item.useTime = 3;
 			item.useAnimation = 10;
 			item.pick = 300;
 			item.axe = 30;
@@ -34,7 +34,7 @@ namespace GopherHeaven.Items.Tools
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "SoulOfGopher", 16);
+			recipe.AddIngredient(null, "SoulOfGopher", 48);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
