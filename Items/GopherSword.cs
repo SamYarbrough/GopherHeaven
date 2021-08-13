@@ -17,7 +17,7 @@ namespace GopherHeaven.Items
 			item.melee = true;
 			item.width = 100;
 			item.height = 100;
-			item.useTime = 15;
+			item.useTime = 10;
 			item.useAnimation = 15;
 			item.useStyle = 1;
 			item.knockBack = 5;

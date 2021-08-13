@@ -19,7 +19,7 @@ namespace GopherHeaven.Items.Armor
             item.Size = new Vector2(18);
             item.value = 10000;
             item.rare = 2;
-            item.defense = 32;
+            item.defense = 86;
         }
 
         public override void AddRecipes()
@@ -40,7 +40,7 @@ namespace GopherHeaven.Items.Armor
         {
             player.moveSpeed += 7f;
             player.noFallDmg = true;
-            player.statLifeMax2 += 100;
+            player.statLifeMax2 += 400;
             player.maxMinions += 5;
             player.buffImmune[BuffID.OnFire] = true;
             player.statManaMax2 += 200;
